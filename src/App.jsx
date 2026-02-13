@@ -32,10 +32,10 @@ export default function App() {
 
   // Générer cœurs flottants
   useEffect(() => {
-    const heartsArray = Array.from({ length: 99 }).map((_, i) => ({
+    const heartsArray = Array.from({ length: 55 }).map((_, i) => ({
       id: i,
       left: Math.random() * window.innerWidth,
-      size: 15 + Math.random() * 99,
+      size: 15 + Math.random() * 55,
       duration: 6 + Math.random() * 4,
       delay: Math.random() * 5,
     }));
