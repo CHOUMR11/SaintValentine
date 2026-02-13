@@ -1,7 +1,7 @@
 export default function Footer() {
   return (
     <footer>
-      💖 Made with love for Libuška 💖
+      💖 Made with love from Oussama for Libuška 💖
     </footer>
   );
 }
